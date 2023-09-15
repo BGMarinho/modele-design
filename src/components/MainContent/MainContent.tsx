@@ -1,6 +1,7 @@
-import * as S from './styles';
+import React from 'react';
 import Title from '../../base-components/Title';
 import Text from '../../base-components/Text';
+import * as S from './styles';
 
 export default function MainContent() {
   return (

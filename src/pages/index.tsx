@@ -1,3 +1,4 @@
+import React from 'react';
 import GlobalStyle from "@/src/layout/globalStyles"
 import HeadAndSEO from "@/src/components/Head"
 import TopBar from "@/src/components/TopBar"

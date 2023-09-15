@@ -1,3 +1,4 @@
+import React from 'react';
 import modele from '../../images/svg/modele.svg';
 import * as S from './styles';
 
