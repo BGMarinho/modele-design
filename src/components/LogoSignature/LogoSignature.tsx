@@ -1,6 +1,7 @@
+import React from 'react';
+import Logo from '../../base-components/Logo';
+import Signature from '../../base-components/Signature';
 import * as S from './styles';
-import Logo from '@/src/base-components/Logo';
-import Signature from '@/src/base-components/Signature/Signature';
 
 export default function LogoSignature() {
   return (
