@@ -1,5 +1,5 @@
 import React from 'react';
-import type { ChildrenType } from '@/types/childrenType';
+import type { ChildrenType } from '../../types/ChildrenType';
 import * as S from './styles';
 
 export default function Signature({ children }: ChildrenType) {

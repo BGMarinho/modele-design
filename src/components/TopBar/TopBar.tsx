@@ -1,7 +1,8 @@
 import React from 'react';
 import * as S from './styles';
+import { TopBarProps } from './interfaces';
 
-export default function TopBar() {
+export default function TopBar({ children }: TopBarProps) {
   const navOptions = [
     { text: 'Home', url: 'http://localhost:3000/' },
     { text: 'projetos', url: '/item-1-link' },
@@ -15,6 +16,7 @@ export default function TopBar() {
           {navOption.text}
         </S.TopBarItem>
       ))}
+      {children}
     </S.TopBarNav>
   );
 }

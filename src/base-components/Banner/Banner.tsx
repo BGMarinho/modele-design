@@ -9,5 +9,3 @@ export default function Banner({ src, alt }: BannerProps) {
     </S.BannerContainer>
   );
 }
-
-// Dumb component prepared for easy use, only passing its "src" and "alt" values.
