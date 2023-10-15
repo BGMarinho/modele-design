@@ -11,8 +11,9 @@ export default function Home() {
     <>
       <GlobalStyle />
       <HeadAndSEO />
-      <TopBar />
-      <SocialIconBar />
+      <TopBar>
+        <SocialIconBar />
+      </TopBar>
       <LogoSignature />
       <MainContent />
     </>
