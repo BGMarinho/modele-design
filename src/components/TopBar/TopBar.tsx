@@ -10,13 +10,15 @@ export default function TopBar({ children }: TopBarProps) {
     { text: 'contato', url: '/item-3-link' },
   ];
   return (
-    <S.TopBarNav>
-      {navOptions.map((navOption, key) => (
-        <S.TopBarItem href={navOption.url} key={key}>
-          {navOption.text}
-        </S.TopBarItem>
-      ))}
+    <S.TopBarContainer>
+      <S.TopBarNavWrapper>
+        {navOptions.map((navOption, key) => (
+          <S.TopBarNavItem href={navOption.url} key={key}>
+            {navOption.text}
+          </S.TopBarNavItem>
+        ))}
+      </S.TopBarNavWrapper>
       {children}
-    </S.TopBarNav>
+    </S.TopBarContainer>
   );
 }
