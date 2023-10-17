@@ -1,8 +1,8 @@
 import React from 'react';
-import type { ChildrenType } from '../../types/ChildrenType';
+import { SignatureProps } from './interfaces';
 import * as S from './styles';
 
-export default function Signature({ children }: ChildrenType) {
+export default function Signature({ children }: SignatureProps) {
   return (
     <S.SignatureContainer>
       <S.Signature>{children}</S.Signature>
